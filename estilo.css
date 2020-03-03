@@ -1,0 +1,22 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+}
+
+.center {
+    text-align: center;
+}
+
+#t1 {
+    color: white;
+    font-size: 6em;
+}
+
+#t2 {
+    color: white;
+    font-size: 2em;
+}
+
+.back {
+    background-image: linear-gradient(to bottom right, #e66767, #f5cd79);
+}
