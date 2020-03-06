@@ -23,5 +23,9 @@ body {
 }
 
 .back {
-    background-image: linear-gradient(to bottom right, #e66767, #f5cd79);
+    background: url('img/ponte.jpg') center center no-repeat;
+    
+    
 }
+#fot{background-color: #222f3e;
+height: 200px;}
