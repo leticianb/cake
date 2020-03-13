@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,32 @@
     <title>Document</title>
     <link rel="shortcut icon" href="music.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="oi.css">
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="MaterialDesign-Webfont-master/css/materialdesignicons.css">
+
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">Brand</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="jumbotron jumbotron-fluid back ">
         <h1 class="display-4 center t4 " id="t1">Leticia</h1>
         <p class="lead center t4" id="t2">
@@ -23,26 +42,32 @@
     </div>
     <div class="container-fluid fundo">
         <div class="row">
-            <div class="col-4">
-                <p class="t3 margem">
+            <div class="col-3 t3 pt-4 pl-3">
+                <p>todos os direitos reservados</p>
+
+            </div>
+            <div class="col-3 t3">
+                <p>Comidas</p>
+                <ul>
+                    <li>lasanha</li>
+                    <li>pizza</li>
+                    <li>lanche</li>
+                    <li>sorvete</li>
+                    <li>bolo</li>
+                </ul>
+            </div>
+            <div class="col-3 t3">
+                <p class=" margem">
                     <i class="mdi mdi-instagram"></i> Leticia
                 </p>
 
-                <p class="t3 margem">
+                <p class=" margem">
                     <i class="mdi mdi-facebook"></i> Leticia
                 </p>
 
-                <p class="t3 margem">
+                <p class=" margem">
                     <i class="mdi mdi-twitter"></i> Leticia
                 </p>
-
-            </div>
-            <div class="col-4">
-                <p></p>
-
-            </div>
-            <div class="col-4">
-                <p></p>
             </div>
         </div>
 
@@ -54,10 +79,6 @@
 
 
 
-
-
-
-    </footer>
 </body>
 
 </html>

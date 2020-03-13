@@ -31,16 +31,17 @@
     height: 200px;
 }
 
-.t3 {
-    color: white;
-    font-size: 1em;
-}
-
 .fundo {
     background-color: #303952;
-    height: 100px;
+    height: 160px;
 }
 
 .margem {
     margin-bottom: 10px;
+}
+
+.t3 {
+    color: white;
+    font-size: 1em;
+    font-family: 'Baloo 2', cursive;
 }
