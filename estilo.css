@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-body {
+.t4 {
     font-family: 'Dancing Script', cursive;
     font-size: 1.2em;
 }
@@ -24,8 +24,23 @@ body {
 
 .back {
     background: url('img/ponte.jpg') center center no-repeat;
-    
-    
 }
-#fot{background-color: #222f3e;
-height: 200px;}
+
+#fot {
+    background-color: #222f3e;
+    height: 200px;
+}
+
+.t3 {
+    color: white;
+    font-size: 1em;
+}
+
+.fundo {
+    background-color: #303952;
+    height: 100px;
+}
+
+.margem {
+    margin-bottom: 10px;
+}
