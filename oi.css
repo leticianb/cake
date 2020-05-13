@@ -36,12 +36,18 @@
     height: 160px;
 }
 
-.margem {
-    margin-left: 10px;
-}
-
 .t3 {
     color: white;
     font-size: 1em;
     font-family: 'Baloo 2', cursive;
+}
+
+#cor {
+    background-color: #222f3e;
+    color: white;
+    font-size: 1em;
+    font-family: 'Baloo 2', cursive;
+    height: 30px;
+    text-align: center;
+    margin-top: 1px;
 }
