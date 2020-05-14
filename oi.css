@@ -15,11 +15,15 @@
 #t1 {
     color: white;
     font-size: 6em;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: rgb(81, 83, 116);
 }
 
 #t2 {
     color: white;
     font-size: 2em;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: rgb(66, 59, 59);
 }
 
 .back {
@@ -75,7 +79,8 @@
 }
 
 .imagem1 {
-    width: 290px;
+    width: 2600px;
+    height: 179px;
 }
 
 .kk {
