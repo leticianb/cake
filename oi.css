@@ -51,3 +51,25 @@
     text-align: center;
     margin-top: 1px;
 }
+
+.imagem {
+    width: 600px;
+}
+
+.t4 {
+    color: rgb(0, 0, 0);
+}
+
+.mt-n5 {
+    margin-top: -6rem;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.t5 {
+    z-index: 99;
+    position: absolute;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: white;
+}
