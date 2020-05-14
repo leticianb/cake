@@ -66,10 +66,6 @@
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-.align {
-    display: flex;
-}
-
 .t5 {
     z-index: 99;
     position: absolute;
